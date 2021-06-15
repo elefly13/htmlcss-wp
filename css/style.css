@@ -75,6 +75,7 @@ nav li a {
     object-fit: cover;
     border-radius: 10px;
 }
+/* OVERLAY  */
 div.overlay {
     position: absolute;
     top: 0;
@@ -83,6 +84,7 @@ div.overlay {
     left: 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
+/* /OVERLAY  */
 div.sliders-text {
     position: absolute;
     width: 50%;
@@ -143,6 +145,23 @@ p {
     width: calc(100% / 5);
     /* background-color: rgb(165, 207, 233);  */
     margin-bottom: 15px;
+}
+.main-img {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+}
+.menu-img {
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+}
+h3 {
+    font-weight: 200;
+    line-height: 50px;
+
 }
 /* inizio main  */
 
