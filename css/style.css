@@ -21,6 +21,13 @@ body {
 div {
     border-radius: 10px;
 }
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 /* fine common  */
 /* inizio Head  */
@@ -96,23 +103,35 @@ p {
 /* inizio main  */
 .contenitore-main {
     width: 100%;
-    background-color: rgb(0, 122, 255);
+    /* background-color: rgb(0, 122, 255); */
 }
+.main-img {
+    height: 200px;
+}
+/* stile top  */
 .top {
     width: 100%;
-    background-color: rgb(165, 207, 233);
+    /* background-color: rgb(165, 207, 233);  */
     margin-bottom: 15px;
 }
+.top p {
+    color: rgb(152, 152, 152);
+}
+/* fine stile top  */
+/* stile menu-dx  */
 .menu-dx {
+    position: relative;
     float: left;
     width: calc(100% / 5);
-    background-color: rgb(165, 207, 233);
+    /* background-color: rgb(165, 207, 233);  */
     margin-bottom: 15px;
 }
+
+
 .corpo-centrale {
     float: left;
     width: calc((100% / 5) * 3 - 30px);
-    background-color: rgb(165, 207, 233);
+    /* background-color: rgb(165, 207, 233);  */
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -122,7 +141,7 @@ p {
 .menu-sx {
     float: left;
     width: calc(100% / 5);
-    background-color: rgb(165, 207, 233);
+    /* background-color: rgb(165, 207, 233);  */
     margin-bottom: 15px;
 }
 /* inizio main  */
